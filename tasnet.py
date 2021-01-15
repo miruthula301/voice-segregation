@@ -2,8 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as Func
 from torch.autograd import Variable
-
-from .utility import models, sdr
+import models, sdr
 
 
 class TasNet(nn.Module):
